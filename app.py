@@ -29,7 +29,7 @@ def load_model_to_app():
 # Responde as requisições para o diretório raiz (/) com index.html
 @app.route("/")
 def index():
-    return render_template('index.html', pred = " ")
+    return render_template('.index.html', pred = " ")
 
 # Para as previsões usamos o método POST para enviar as variáveis de entrada ao modelo
 @app.route('/predict', methods = ['POST'])
