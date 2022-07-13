@@ -1,2 +1,2 @@
-# MBA-Class
-Construção de um projeto aplicando ML 
+# docker-ml
+Machine learning e IA com Docker
