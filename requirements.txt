@@ -29,7 +29,7 @@
  requests==2.22.0
  rsa==4.0
  six==1.14.0
- tensorboard==2.1.0
+ tensorboard==2.2.0
  tensorflow-estimator==2.2.0
  tensorflow==2.2.1
  termcolor==1.1.0
