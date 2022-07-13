@@ -2,6 +2,7 @@
 FROM ubuntu:18.04
 
 # Install pipenv
+RUN pip install --upgrade pip
 RUN apt-get update
 RUN apt-get install -y build-essential python3.7 python3.7-dev python3-pip python3.7-venv
 
