@@ -13,7 +13,8 @@ print('Versão da Linguagem Python Usada:', python_version())
 # Imports
 import numpy as np
 import tensorflow as tf
-from flask import Flask, request, jsonify, render_template
+from markupsafe import escape
+from flask import Flask, request, render_template
 from tensorflow.keras import backend
 from tensorflow.keras.models import load_model
 
