@@ -1,2 +1,2 @@
-# docker-ml
-Machine learning e IA com Docker
+# Projeto
+Machine learning e IA
